@@ -1,0 +1,45 @@
+.navbar-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 30.5%;
+  height: 100vh;
+  left: 9.5%;
+  top: 19%;
+}
+
+.icon-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.homepage-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.software-development-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.software-testing-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.devops-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.design-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.product-management-icon {
+  width: 25px;
+  height: 25px;
+}
