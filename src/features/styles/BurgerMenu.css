@@ -1,0 +1,26 @@
+.burgermenu-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 25%;
+  top: 3px;
+  gap: 5.2px;
+}
+
+.burger-menu {
+  width: 2rem;
+  height: 2px;
+  background-color: black;
+}
+
+.first-line {
+  position: relative;
+  width: 70%;
+  left: 30%;
+}
+
+.third-line {
+  position: relative;
+  width: 50%;
+  left: 50%;
+}

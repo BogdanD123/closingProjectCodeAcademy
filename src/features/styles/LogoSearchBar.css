@@ -1,9 +1,12 @@
 .header-container {
+  position: fixed;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 85%;
   height: 10vh;
+  background-color: white;
+  z-index: 2;
 }
 
 .logo-name-container {
@@ -17,9 +20,9 @@
 
 .form-container {
   color: rgb(216, 211, 211);
-  padding: 15px;
-  border-left: 2px solid;
-  border-right: 2px solid;
+  padding: 15.4px;
+  border-left: 0.3px solid;
+  border-right: 0.3px solid;
 }
 
 .input-container {
@@ -60,30 +63,6 @@
   color: rgb(220 10 101);
 }
 
-.burger-menu-container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  left: 25%;
-  right: 2rem;
-  top: 3px;
-  gap: 5.2px;
-}
-
-.burger-menu {
-  width: 2rem;
-  height: 2px;
-  background-color: black;
-}
-
-.first-line {
-  position: relative;
-  width: 70%;
-  left: 30%;
-}
-
-.third-line {
-  position: relative;
-  width: 50%;
-  left: 50%;
+.activated {
+  background-color: gray;
 }

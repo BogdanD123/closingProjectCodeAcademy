@@ -1,0 +1,108 @@
+.popup-container {
+  position: fixed;
+  display: flex;
+  top: 25%;
+  left: 37%;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.popup-container > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 370px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  gap: 2rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 2px rgb(0 7 5 / 52%);
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(34, 33, 33, 0.503);
+  z-index: 3;
+}
+
+.popup-container > div > h4 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 0.4px;
+}
+
+.input-fields {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.input-fields > input {
+  width: 83%;
+  height: 2.7rem;
+  box-shadow: inset 0px 1px 13px #80808059;
+  border: 1px solid #80808070;
+  border-radius: 2.5px;
+}
+
+.input-fields > input:focus {
+  background-color: rgba(0, 110, 255, 0.081);
+}
+
+.continue-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 82%;
+  height: 2.6rem;
+  background-color: rgb(255 0 136);
+  color: white;
+  border-radius: 20px;
+}
+
+.division-line {
+  width: 100%;
+  height: 1px;
+  background-color: #80808070;
+}
+
+.popup-container > div > :nth-child(4) {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 10px;
+  letter-spacing: 0.6px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.popup-container > div > :nth-child(6) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 13px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.popup-container > div > :nth-child(6) > :nth-child(2) {
+  color: rgb(255 0 136);
+}

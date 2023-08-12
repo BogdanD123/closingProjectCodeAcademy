@@ -1,0 +1,128 @@
+.signbar-container {
+  position: fixed;
+  right: 15%;
+  top: 10%;
+  width: 300px;
+  height: 500px;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 43px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.signup-linkbuttons {
+  position: relative;
+  top: 8%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.linkedin-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+  height: 38px;
+  border-radius: 25px;
+  border: 1px solid;
+  padding-left: 17px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+.linkedin-icon-button {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 250px;
+  height: 38px;
+  border-radius: 25px;
+  border: 1px solid;
+  padding-left: 17px;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+.google-icon-button {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.division-signin {
+  position: relative;
+  right: 1%;
+  width: 86%;
+  display: flex;
+  align-items: center;
+}
+
+.division-signin > div {
+  width: 120px;
+  height: 1px;
+  background-color: rgb(174 171 171 / 64%);
+}
+
+.division-signin > span {
+  margin: 0 6px;
+}
+
+.alternate-signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 0, 136);
+  color: white;
+  width: 250px;
+  height: 38px;
+  border-radius: 25px;
+  font-weight: 700;
+}
+
+.signin-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 38px;
+  border-radius: 25px;
+  border: 1px solid rgb(174 171 171 / 64%);
+  color: rgb(255, 0, 136);
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.attention-text {
+  position: relative;
+  font-size: 12px;
+  bottom: 2%;
+}
+
+.additional-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 0;
+  width: 41%;
+  height: 7vh;
+  background-color: rgba(227, 223, 223, 0.432);
+  color: rgba(62, 61, 61, 0.941);
+  right: -4.5%;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 4rem;
+  padding-left: 2rem;
+}

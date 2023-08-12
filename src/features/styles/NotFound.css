@@ -1,0 +1,7 @@
+.notfound-error {
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  width: 100%;
+  height: 100%;
+}

@@ -1,5 +1,5 @@
 .navbar-container {
-  position: absolute;
+  position: fixed;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -42,4 +42,14 @@
 .product-management-icon {
   width: 25px;
   height: 25px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.clicked {
+  font-weight: bolder;
 }

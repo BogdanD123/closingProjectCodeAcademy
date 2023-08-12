@@ -1,26 +1,29 @@
-.snippet-container {
+.newsfeed-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   position: absolute;
-  width: 50%;
+  top: 10%;
+  left: 28.8%;
+  width: 34.7%;
+  height: 100%;
+}
+
+.snippet {
+  display: flex;
+  width: 100%;
   height: 25%;
-  top: 30%;
-  left: 29%;
-  border: 0.3px solid;
+  border: 0.3px solid rgb(216, 211, 211);
 }
 
 .content {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  left: 16%;
-  top: 9%;
+  margin: 10px;
 }
 
 .svg-icon {
-  position: absolute;
+  margin: -4px 7px;
   width: 20px;
   height: 20px;
-  left: 13%;
-  top: 2%;
 }
 
 .location {
@@ -30,18 +33,20 @@
   margin-top: 4px;
 }
 
-.snippet > li {
+li {
   font-size: 12px;
-  position: absolute;
-  top: 9%;
-  right: 4%;
+  width: 20%;
+  margin-top: 13px;
+}
+
+.snippet-hour {
+  width: 20%;
 }
 
 .google-icon {
-  display: flex;
   width: 80px;
   font-size: 3rem;
-  margin: 17px;
+  margin: 7px;
 }
 
 .google-title {
@@ -55,19 +60,16 @@
 }
 
 .adsnippet-icons {
-  position: absolute;
+  position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 0 6rem;
-  bottom: 7%;
-  width: 100%;
+  width: 132%;
   color: gray;
+  top: 20%;
 }
 
 .adsnippet-icons > div > span {
   position: absolute;
-  bottom: 10%;
-  margin-left: 10px;
-  color: gray;
+  margin-left: 16px;
+  bottom: 12%;
 }
