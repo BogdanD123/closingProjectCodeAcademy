@@ -70,6 +70,7 @@
   background-color: rgb(255 0 136);
   color: white;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .division-line {

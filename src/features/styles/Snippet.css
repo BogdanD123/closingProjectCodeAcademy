@@ -1,0 +1,57 @@
+.single-ad-page-snippet-container {
+  position: fixed;
+  padding: 15px;
+  top: 10%;
+  left: 28.8%;
+  width: 34.7%;
+  height: 100%;
+  border-left: 1px solid rgb(216, 211, 211);
+  border-right: 1px solid rgb(216, 211, 211);
+}
+
+.snippet-single-ad-page {
+  display: flex;
+  width: 47%;
+  height: 25%;
+}
+
+.single-ad-page-snippet-text {
+  color: rgb(43 43 43 / 95%);
+  width: 262%;
+  font-size: 13px;
+}
+
+.single-ad-page-time {
+  position: fixed;
+  left: 59%;
+}
+
+.requirements {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1em;
+  width: 80%;
+  left: 13%;
+}
+
+.position-text {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.requierement {
+  background-color: rgb(58 57 57 / 8%);
+  padding: 8px;
+  color: rgba(58, 57, 57, 0.989);
+}
+
+.line {
+  position: relative;
+  top: 5%;
+  left: 2.5%;
+  width: 65.4%;
+  height: 0.5px;
+  background-color: rgb(216, 211, 211);
+}

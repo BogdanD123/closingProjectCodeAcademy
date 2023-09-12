@@ -12,46 +12,42 @@ function Navbar() {
   const [click, setClick] = useState(false);
 
   const handleStateChange = () => {
-    setClick(true);
+    setClick(!click);
   };
 
   return (
     <div className="navbar-container">
-      <div className="icon-container">
+      <div className="navbar-buttons">
         <TfiHome className="homepage-icon" />
-        <NavLink
-          to={"/"}
-          className={`nav-links ${click === true ? "clicked" : ""}`}
-          onClick={handleStateChange}
-        >
+        <NavLink to={"/"} className="nav-links" onClick={handleStateChange}>
           Home
         </NavLink>
       </div>
-      <div className="icon-container">
+      <div className="navbar-buttons">
         <HiOutlineCode className="software-development-icon" />
         <NavLink to={"*"} className="nav-links">
           Software development
         </NavLink>
       </div>
-      <div className="icon-container">
+      <div className="navbar-buttons">
         <TbChecklist className="software-testing-icon" />
         <NavLink to={"*"} className="nav-links">
           Software testing
         </NavLink>
       </div>
-      <div className="icon-container">
+      <div className="navbar-buttons">
         <AiOutlineCloudServer className="devops-icon" />
         <NavLink to={"*"} className="nav-links">
           DevOps
         </NavLink>
       </div>
-      <div className="icon-container">
+      <div className="navbar-buttons">
         <GiPencilRuler className="design-icon" />
         <NavLink to={"*"} className="nav-links">
           Design, UX, UI
         </NavLink>
       </div>
-      <div className="icon-container">
+      <div className="navbar-buttons">
         <TiGroupOutline className="product-management-icon" />
         <NavLink to={"*"} className="nav-links">
           Product management

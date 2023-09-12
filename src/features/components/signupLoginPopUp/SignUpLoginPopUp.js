@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "../../styles/SignUpLoginPopUp.css";
 
 function SignUpLoginPopUp({ handlePopUpLogin }) {
+  const [data, setData] = useState("");
+
+  const handleInput = (e) => {
+    setData(e.target.value);
+  };
+
   return (
     <>
       <div className="overlay" onClick={handlePopUpLogin}></div>
@@ -9,8 +16,8 @@ function SignUpLoginPopUp({ handlePopUpLogin }) {
         <div>
           <h4>Login to Codedesk</h4>
           <div className="input-fields">
-            <input />
-            <input />
+            <input placeholder="Username" value={data} onChange={handleInput} />
+            <input placeholder="Password" />
           </div>
           <div className="continue-button">Continue</div>
           <div>
